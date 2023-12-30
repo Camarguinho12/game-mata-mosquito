@@ -1,0 +1,57 @@
+/*CURSOR*/
+/*messo dentro da tag html para sobrepor qualquer elemento da pagina
+30 30 sao as coordenads em pixels de onde o curso vai ser posicionada dentro da imagem para ser o cursor
+auto è o valor inicial*/
+html{
+    cursor: url('imagens/mata_mosquito.png') 30 30, auto;
+
+}
+
+/*CENARIO*/
+body{
+    background-image: url('imagens/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.painel{
+    background-color: rgba(183, 255, 141, 0.7);
+    width: 175px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.vida{
+    float: left;
+}
+.cronometro{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*MOSQUITO*/
+.mosquito1{
+    height: 50px;
+    width: 50px;
+}
+.mosquito2{
+    height: 70px;
+    width: 70px;
+}
+.mosquito3{
+    height: 90px;
+    width: 90px;
+}
+
+.ladoA{
+    transform: scaleX(1);
+}
+.ladoB{
+    transform: scaleX(-1);
+}
+
+/*TELA INICIAL*/
+.nivelForm{
+    width: 250px;
+}

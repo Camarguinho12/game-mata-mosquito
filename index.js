@@ -1,0 +1,1 @@
+document.querySelector('#btnIniciar').addEventListener('click', novoJogo);
